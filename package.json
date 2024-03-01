@@ -8,6 +8,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.0",
     "@mantine/carousel": "^7.5.3",
     "@mantine/charts": "^7.5.3",
     "@mantine/code-highlight": "^7.5.3",
@@ -21,6 +23,7 @@
     "@mantine/nprogress": "^7.5.3",
     "@mantine/spotlight": "^7.5.3",
     "@mantine/tiptap": "^7.5.3",
+    "@mui/material": "^5.15.11",
     "@prisma/client": "^5.10.2",
     "@tabler/icons-react": "^2.47.0",
     "@tiptap/extension-link": "^2.2.3",
@@ -30,6 +33,7 @@
     "dayjs": "^1.11.10",
     "embla-carousel-react": "^7.1.0",
     "next": "14.1.0",
+    "plugins": "^0.4.2",
     "react": "^18",
     "react-dom": "^18",
     "recharts": "^2.12.1"

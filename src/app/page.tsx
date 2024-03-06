@@ -12,7 +12,7 @@ export default function Login() {
   if (session) {
     <>
       Singed in as {session.user?.email} <br />
-      {/* <button onClick={() => singOut()}>Sing out</button> */}
+      <button onClick={() => singOut()}>Sing out</button>
     </>;
   }
 
